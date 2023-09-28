@@ -10,7 +10,7 @@ TAX = 0.06
 Tax = Amount * TAX
 
 #Rounds the Tax variable to 2 decimal
-Rounded_num = round(Tax, 2)
+Rounded_tax = round(Tax, 2)
 
 #Prints the rounded tax amount
-print("6% Tax Amount: " + str(Rounded_num))
+print("6% Tax Amount: " + str(Rounded_tax))
